@@ -10,7 +10,6 @@ on:
 
 jobs:
   build-and-deploy-nginx:
-    needs: test
     name: Build and Deploy Nginx
     runs-on: ubuntu-latest
     steps:
